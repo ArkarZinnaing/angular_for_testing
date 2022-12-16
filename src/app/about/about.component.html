@@ -1,0 +1,5 @@
+<p>{{about}}</p>
+<button class="button" (click)="clickFunction('Hello')">Go Home</button>
+<div *ngFor="let datas of data">
+<app-card [card]="datas.name"></app-card>
+</div>
